@@ -12,13 +12,13 @@ export default function Event_navbar() {
           />
         </div>
         <div className=" flex items-center">
-          <IoIosArrowBack className="text-white" {...({} as any)}/>
+          <IoIosArrowBack className="text-white" />
           <input
             type="text"
             placeholder="SUN, OCT 6"
             className=" bg-[#D2681E]  placeholder:text-white w-[300px] border-white border"
           />
-          <IoIosArrowForward className="text-white" {...({} as any)} />
+          <IoIosArrowForward className="text-white"  />
 
         </div>
       </div>

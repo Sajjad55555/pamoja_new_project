@@ -11,7 +11,7 @@ export default function ShopCard({ imageUrl, title, showIcon = false }: ShopDivP
   return (
     <div className="relative w-full h-[720px]">
       {showIcon && (
-        <BsFilterLeft className="absolute top-2 left-2 text-white text-4xl" {...({} as any)} />
+        <BsFilterLeft className="absolute top-2 left-2 text-white text-4xl" />
       )}
       <Image
         src={imageUrl} 

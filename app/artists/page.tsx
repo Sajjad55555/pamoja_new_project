@@ -3,7 +3,6 @@ import Artist_main2 from "@/app/components/Artist_main2"
 import Artist_main3 from "@/app/components/artist_main3"
 import Sidebar from "@/app/components/sidebar"
 import Footer from "@/app/components/Footers"
-import { Menu } from "lucide-react"
 
 function Artist() {
   return (
