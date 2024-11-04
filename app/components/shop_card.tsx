@@ -5,7 +5,7 @@ import Sidebar from "./sidebar";
 interface ShopDivProps {
   title: string;
   imageUrl: string;
-  showIcon: boolean;
+  showIcon?: boolean;
 }
 
 export default function ShopCard({ imageUrl, title, showIcon = false }: ShopDivProps) {
