@@ -1,4 +1,4 @@
-import { BsFilterLeft } from "react-icons/bs";
+
 import Image from "next/image";
 import Sidebar from "./sidebar";
 
