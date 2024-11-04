@@ -1,17 +1,20 @@
 import { BsFilterLeft } from "react-icons/bs";
 import Image from "next/image";
+import Sidebar from "./sidebar";
 
 interface ShopDivProps {
   title: string;
   imageUrl: string;
-  showIcon?: boolean;
+  showIcon: boolean;
 }
 
 export default function ShopCard({ imageUrl, title, showIcon = false }: ShopDivProps) {
   return (
     <div className="relative w-full h-[720px]">
       {showIcon && (
-        <BsFilterLeft className="absolute top-2 left-2 text-white text-4xl" />
+        <div className="absolute z-10 top-2 left-2">
+             <Sidebar/>
+        </div>
       )}
       <Image
         src={imageUrl} 
